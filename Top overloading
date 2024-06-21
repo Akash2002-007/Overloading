@@ -1,0 +1,18 @@
+public class Top{
+    public void main(){
+        System.out.println("no-arg method");
+    }
+    public void m1(int i){
+        System.out.println("int-arg method");
+    }
+    public void m1(double d){                            //Overloading
+        System.out.println("double-arg method ");
+
+    }
+    public static void main(String[] arg){
+        Top t=new Top();
+        t.m1(8.9);
+        t.m1(10);
+    }
+
+}
